@@ -1,0 +1,38 @@
+<div class="relative w-full overflow-hidden">
+  <div
+    class="flex transition-transform duration-500"
+    [style.transform]="'translateX(-' + currentIndex * 100 + '%)'"
+  >
+    <img
+      src="{{ images[0] }}"
+      class="w-full h-90 object-cover flex-shrink-0"
+      alt="Banner 1"
+    />
+    <img
+      src="{{ images[1] }}"
+      class="w-full h-90 object-cover flex-shrink-0"
+      alt="Banner 2"
+    />
+    <img
+      src="{{ images[2] }}"
+      class="w-full h-90 object-cover flex-shrink-0"
+      alt="Banner 3"
+    />
+  </div>
+
+  <!-- Botão esquerdo -->
+  <button
+    (click)="prev()"
+    class="absolute top-1/2 left-4 transform -translate-y-1/2 text-white px-3 py-1 rounded"
+  >
+    &lt;
+  </button>
+
+  <!-- Botão direito -->
+  <button
+    (click)="next()"
+    class="absolute top-1/2 right-4 transform -translate-y-1/2 text-white px-3 py-1 rounded"
+  >
+    &gt;
+  </button>
+</div>

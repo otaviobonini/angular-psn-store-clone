@@ -1,0 +1,12 @@
+<div class="home__container">
+  <app-card
+    *ngFor="let jogo of datafake"
+    id="jogo.id"
+    [gameLink]="jogo.gameLink"
+    [gameCover]="jogo.gameCover"
+    [gameLabel]="jogo.gameLabel"
+    [gameName]="jogo.gameName"
+    [gamePrice]="jogo.gamePrice"
+    [gameType]="jogo.gameType"
+  ></app-card>
+</div>

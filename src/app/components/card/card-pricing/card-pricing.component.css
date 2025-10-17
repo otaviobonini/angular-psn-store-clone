@@ -1,0 +1,36 @@
+.card-pricing__container {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.932);
+  padding: 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-pricing__title {
+  margin-bottom: 3px;
+}
+
+.card-pricing__value {
+  display: flex;
+  justify-content: space-between;
+}
+.card-pricing__value__console {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pricing__value__console span {
+  font-weight: bolder;
+  color: rgb(0, 153, 255);
+  margin-right: 10px;
+}
+
+.card-pricing__value__money p {
+  font-weight: bolder;
+}
