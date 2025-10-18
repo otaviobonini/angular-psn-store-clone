@@ -1,10 +1,10 @@
 # PlayStation Store Clone
 
 ## 🎮 Introduction
-This project is a **visual clone of the PlayStation™ Store**, built with **Angular 14, TypeScript, and Tailwind CSS**.  
-The goal was to recreate the store’s layout, interactive cards, and responsive navigation.
+This project is a **visual clone of the PlayStation™ Store**, built with **Angular 14, TypeScript, Tailwind CSS**, and a **Flask API** for dynamic game data.  
+The goal was to recreate the store’s layout, interactive cards, and responsive navigation, now **fetching real data from a backend**.
 
-This project is part of a personal portfolio and demonstrates frontend skills in building modern web apps.
+This project is part of a personal portfolio and demonstrates both **frontend and backend skills**, including API integration(that i made) and asynchronous data handling.
 
 ---
 
@@ -15,9 +15,10 @@ Access the project online: *[Click here](https://angular-psn-store-clone-gold.ve
 
 ## 📸 Project Screenshot
 ![Screenshot](https://i.postimg.cc/hPDSxPRy/Portofolio.png)  
-- Interactive cards
-- Responsive data with integration with a dataFake
-- Footer with GitHub, LinkedIn, and Instagram links
+- Interactive cards  
+- **Dynamic game data fetched from Flask API**  
+- Responsive navigation and layout  
+- Footer with GitHub, LinkedIn, and Instagram links  
 
 ---
 
@@ -37,3 +38,4 @@ npm install
 ng serve
 
 # Open the app in your browser at http://localhost:4200
+
