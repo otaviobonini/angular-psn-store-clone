@@ -9,7 +9,7 @@ This project is part of a personal portfolio and demonstrates frontend skills in
 ---
 
 ## 🔗 Live Demo
-Access the project online: *[Click here](https://angular-psn-store-clone-git-master-otavioboninis-projects.vercel.app/)*  
+Access the project online: *[Click here](https://angular-psn-store-clone-gold.vercel.app/)*  
 
 ---
 
