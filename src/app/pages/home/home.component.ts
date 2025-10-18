@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { dataFake } from '../../data/data';
+import { GameService } from '../../service/game.service';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +7,12 @@ import { dataFake } from '../../data/data';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  datafake = dataFake;
-  constructor() {}
+  games: any[] = [];
+  constructor(private gameService: GameService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.gameService.getGames().subscribe((data) => {
+      this.games = data;
+    });
+  }
 }

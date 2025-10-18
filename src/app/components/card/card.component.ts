@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { dataFake } from '../../data/data';
+import { GameService } from 'src/app/service/game.service';
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
@@ -20,21 +20,22 @@ export class CardComponent implements OnInit {
   gamePrice: string = '';
   @Input()
   gameLink: string = '';
-  constructor() {}
+  constructor(private gameService: GameService) {}
 
   ngOnInit(): void {
     this.setValuesToComponent(this.id);
   }
   setValuesToComponent(id: string) {
-    const result = dataFake.find((article) => article.id.toString() === id);
-
-    if (result) {
-      this.gameCover = result.gameCover;
-      this.gameName = result.gameName;
-      this.gameLabel = result.gameLabel;
-      this.gamePrice = result.gamePrice;
-      this.gameType = result.gameType;
-      this.gameLink = result.gameLink;
-    }
+    this.gameService.getGames().subscribe((games) => {
+      const result = games.find((g: any) => g.id.toString() === id);
+      if (result) {
+        this.gameCover = result.gameCover;
+        this.gameName = result.gameName;
+        this.gameLabel = result.gameLabel;
+        this.gamePrice = result.gamePrice;
+        this.gameType = result.gameType;
+        this.gameLink = result.gameLink;
+      }
+    });
   }
 }
