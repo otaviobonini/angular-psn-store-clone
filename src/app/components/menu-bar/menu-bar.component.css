@@ -12,7 +12,7 @@
 .menu-bar__item {
   display: flex;
   align-items: center;
-  margin-left: 400px;
+  margin: auto;
 }
 
 .menu-bar__item ul {
@@ -26,7 +26,7 @@
 }
 
 .menu-bar__logo {
-  margin-left: 60px;
+  margin: auto;
   display: flex;
   align-items: center;
 }
@@ -42,4 +42,58 @@
 .menu-bar__item ul li a:hover {
   color: blue;
   font-weight: 300;
+}
+
+@media screen and (min-width: 1016px) {
+  .menu-bar__item {
+    margin-left: -150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-bar__item {
+    margin-left: -200px;
+  }
+  .menu-bar__logo {
+    margin-left: 0;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .menu-bar__item ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .menu-bar__item ul {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .menu-bar__item ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 9px;
+  }
+  .menu-bar__item ul {
+    list-style: none;
+    display: flex;
+    gap: 0px;
+  }
+  .menu-bar__logo img {
+    height: auto;
+    width: auto;
+  }
 }

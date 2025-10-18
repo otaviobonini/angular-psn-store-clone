@@ -1,27 +1,44 @@
-# Store
+# PlayStation Store Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## 🎮 Introduction
 
-## Development server
+This project is a **visual clone of the PlayStation™ Store**, built with **Angular 14, TypeScript, and Tailwind CSS**.  
+The goal was to recreate the store’s layout, interactive cards, and responsive navigation.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project is part of a personal portfolio and demonstrates frontend skills in building modern web apps.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🔗 Live Demo
 
-## Build
+Access the project online: _[Click here](https://angular-psn-store-clone-gold.vercel.app/)_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📸 Project Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Screenshot](https://i.postimg.cc/hPDSxPRy/Portofolio.png)
 
-## Running end-to-end tests
+- Interactive cards
+- Responsive data with integration with a dataFake
+- Footer with GitHub, LinkedIn, and Instagram links
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## ⚙️ Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Clone the repository
+git clone https://github.com/otaviobonini/angular-psn-store-clone.git
+
+# Enter the project folder
+cd angular-psn-store-clone
+
+# Install dependencies
+npm install
+
+# Start the development server
+ng serve
+
+# Open the app in your browser at http://localhost:4200
+```
