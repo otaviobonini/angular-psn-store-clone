@@ -1,27 +1,39 @@
-# Store
+# PlayStation Store Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## 🎮 Introduction
+This project is a **visual clone of the PlayStation™ Store**, built with **Angular 14, TypeScript, and Tailwind CSS**.  
+The goal was to recreate the store’s layout, interactive cards, and responsive navigation.
 
-## Development server
+This project is part of a personal portfolio and demonstrates frontend skills in building modern web apps.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🔗 Live Demo
+Access the project online: *[Click here](https://angular-psn-store-clone-gold.vercel.app/)*  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📸 Project Screenshot
+![Screenshot](https://i.postimg.cc/hPDSxPRy/Portofolio.png)  
+- Interactive cards
+- Responsive data with integration with a dataFake
+- Footer with GitHub, LinkedIn, and Instagram links
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## ⚙️ Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+# Clone the repository
+git clone https://github.com/otaviobonini/angular-psn-store-clone.git
 
-## Running end-to-end tests
+# Enter the project folder
+cd angular-psn-store-clone
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Install dependencies
+npm install
 
-## Further help
+# Start the development server
+ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Open the app in your browser at http://localhost:4200
